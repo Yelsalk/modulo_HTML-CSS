@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,45 +7,97 @@
         <title>Formulários em HTML</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <h1>Estudando formulários em HTML</h1>
-        <nav>
-            <ul>
-               <strong>
-                <li>Sobre</li>
-                <li>Serviços</li>
-                <li>Contato</li>
-               </strong>
-            </ul>
-        </nav>
-    </head>
+        <link rel="stylesheet" href="form.css">
+    </head>    
 
-    <body>
-        <session element.id="conteudo">
-            <div>
-                <h2 element.id="serviços">Sobre</h2>
-                <p>Esta é uma página de exemplo, criada para demonstrar o uso da tag form do HTML</p>
-                <img src="porto.jpg" alt="Imagem não encontrada" width="500">
-                <ul class="a">
-                    <li>Web design</li>
-                    <li>Desenvolvimento</li>
-                    <li>Hospedagem de sites</li>
+    <body class="a">
+        <header>
+            <h1>Estudando formulários em HTML</h1>
+
+            <nav>
+                <ul class="b">
+
+                    <strong>
+                        <li>Sobre</li>
+                        <li>Serviços</li>
+                        <li>Contato</li>
+                    </strong>
+
                 </ul>
-            </div>
+            </nav>
+        </header>
+        <div element.id="conteudo">
 
-            <div>
-                <h2 element.id="contato">Contato</h2>
-                <p>Entre em contato conosco</p>
-            </div>
-            <form>
-                Nome:<input type="text">
-            </form>
-        </session>
+            <main>
+                <article>
 
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+                    <h2 element.id="sobre">Sobre</h2>
+
+                    <p>Esta é uma página de exemplo, criada para demonstrar o uso da tag form do HTML</p>
+                    <img src="porto.jpg" alt="Imagem não encontrada" width="500">
+
+                </article>
+
+                <section>
+
+                    <h2 element.id="serviços">Serviços</h2>
+
+                    <ul class="a">
+                        <li>Web design</li>
+                        <li>Desenvolvimento</li>
+                        <li>Hospedagem de sites</li>
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h2 element.id="contato">Contato</h2>
+
+                    <p>Entre em contato conosco</p>
+
+                </section>
+
+                <form action="#" method="get">
+
+                    <label>Nome:</label>
+                    <input type="text" name="nome" id="nome">
+
+
+                    <label>Email:</label>
+                    <input type="text" name="email" id="email">
+
+
+                    <label>Mensagem:</label>
+                    <input class="a" type="text" name="mensagem" id="mensagem">
+            
+
+                    <input type="submit" value="Enviar" id="submit">
+
+                </form>
+            </main>
+            <aside>
+
+                <h2>Barra lateral</h2>
+                <p>Algumas informações adicionais podem ser exibidas aqui.</p>
+            </aside>    
+        </div>
+
+            <footer>
+                
+                <p>&copy;2024 Minha Empresa. Todos os direitos reservadis.</p>
+
+                <div>
+                    <ul>
+                        <li>Endereço: AV. eXEMPLO, 123 - Cidade Exemplo - Brasil</li>
+
+                        <li>Telefone: (XX) XXXX-XXXX</li>
+
+                        <li>Email: exemplo@email.com</li>
+                    </ul>
+                </div>
+            </footer>
+
         <script src="" async defer></script>
     </body>
 </html>

@@ -1,0 +1,46 @@
+ul.a{
+    list-style-type: square;
+}
+
+ul.b{
+    list-style-type: circle;
+}
+
+body{
+    background-color:black;
+}
+
+header, main, aside, footer{
+    background-color: grey;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+nav{
+    height: 60px;
+    text-align: left;
+}
+
+main, aside{
+    min-height: 800px;
+}
+
+main{
+    height: 73%;
+    width: 74%;
+    margin-right: 1%;
+    float: left;
+}
+
+aside{
+    height: 73%;
+    width: 23%;
+    float: right;
+}
+
+footer{
+    clear: both;
+    height: 130px;
+}
